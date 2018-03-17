@@ -1,11 +1,11 @@
 # Base blog settings
-baseurl                      : "/" # the subpath of your site,                         # e.g. /blog/
+baseurl                      : "" # the subpath of your site,                         # e.g. /blog/
                               # set to '' in case of hosting on GitHub
 url                          : "" # the base hostname & protocol for your site
                                   # `http://<username>.github.io` - for GitHub
 
 blog:
-  title                      : dactl
+  title                      : Ranta-go
   description                  : >
                                this should contain a proper description
 
@@ -48,7 +48,13 @@ author:
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-maps
 
+maps:
+    google:
+      api_key: AIzaSyB_0Smf6zBtC-HLdXoWA0PL-fm0dBqWqtg
+      marker_cluster:
+        enabled: false
 # Permalinks
 permalink                    : posts/:slug
 

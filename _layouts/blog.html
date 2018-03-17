@@ -3,10 +3,13 @@ layout: default
 title: "Blog"
 ---
 
-{% for post in paginator.posts %}
+{% google_map src="_posts" no_cluster width="100%" height="400" %}
+<div class="wrapper">
+    {% for post in paginator.posts %}
 
-{% include blog.html %}
+    {% include blog.html %}
 
-{% endfor %}
+    {% endfor %}
 
-{% include post/pagination.html %}
+    {% include post/pagination.html %}
+</div>
