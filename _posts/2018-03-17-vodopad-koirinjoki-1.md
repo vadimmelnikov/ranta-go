@@ -3,7 +3,7 @@ layout: post
 title: Койриноя-1 
 tags:
   
-description: hello
+description: 
 hero: https://img-fotki.yandex.ru/get/9323/101853371.86/0_bd452_3749accd_orig.jpg
 overlay: pure
 published: true
