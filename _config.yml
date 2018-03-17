@@ -55,6 +55,7 @@ maps:
       api_key: AIzaSyB_0Smf6zBtC-HLdXoWA0PL-fm0dBqWqtg
       marker_cluster:
         enabled: false
+
 # Permalinks
 permalink                    : posts/:slug
 
